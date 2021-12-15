@@ -19,6 +19,7 @@ export const Form = styled.form`
 
 export const Label = styled.label`
   margin-bottom: 16px;
+
   & > span {
     display: block;
     text-align: left;
@@ -46,6 +47,7 @@ export const Input = styled.input`
   padding-bottom: 13px;
   font-size: 18px;
   line-height: 1.33333333;
+
   &:focus {
     --saf-0: rgba(var(--sk_highlight, 18, 100, 163), 1);
     box-shadow: 0 0 0 1px var(--saf-0), 0 0 0 5px rgba(29, 155, 209, 0.3);
@@ -70,6 +72,7 @@ export const Button = styled.button`
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+
   &:hover {
     background-color: rgba(74, 21, 75, 0.9);
     border: none;
@@ -97,10 +100,12 @@ export const LinkContainer = styled.p`
   margin: 0 auto 8px;
   width: 400px;
   max-width: 400px;
+
   & a {
     color: #1264a3;
     text-decoration: none;
     font-weight: 700;
+
     &:hover {
       text-decoration: underline;
     }
